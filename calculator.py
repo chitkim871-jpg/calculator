@@ -40,7 +40,7 @@ result_label.pack()
 def Add():
     a=int(First_Value.get())
     b=int(Second_Value.get())
-    add=a++b
+    add=a+b
     result_label.config(text = "Operation Result is : " +str(add))
     
     
