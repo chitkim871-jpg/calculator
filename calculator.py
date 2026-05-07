@@ -46,11 +46,11 @@ result_label.pack()
     
     
     
-def Sub():
-    a=int(First_Value.get())
-    b=int(Second_Value.get())
-    Sub=a-b
-    result_label.config(text = "Operation Result is :  " +str(Sub))
+# def Sub():
+#     a=int(First_Value.get())
+#     b=int(Second_Value.get())
+#     Sub=a-b
+#     result_label.config(text = "Operation Result is :  " +str(Sub))
     
     
 def Mul():
