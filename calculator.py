@@ -41,7 +41,7 @@ def Add():
     a=int(First_Value.get())
     b=int(Second_Value.get())
     add=a + b
-    result_label.config(text = "Operation Result is =  "  +str(add))
+    result_label.config(text = "Operation Result is :  "  +str(add))
     
     
     
@@ -50,25 +50,24 @@ def Sub():
     a=int(First_Value.get())
     b=int(Second_Value.get())
     Sub=a-b
-    result_label.config(text = "Operation Result is =  " +str(Sub))
+    result_label.config(text = "Operation Result is :  " +str(Sub))
     
     
 def Mul():
     a=int(First_Value.get())
     b=int(Second_Value.get())
     Mul=a*b
-    result_label.config(text = "Operation Result is =  " +str(Mul))
+    result_label.config(text = "Operation Result is :  " +str(Mul))
     
 def Div():
     a=int(First_Value.get())
     b=int(Second_Value.get())
     try:
         Div=a/b
-        
     except:
         messagebox.showerror("Error", "Zero Division Error. Please Enter Non Zero value in denominator.")
     
-    result_label.config(text = "Operation Result is =  " +str(Div))
+    result_label.config(text = "Operation Result is :  " +str(Div))
 
 mainWindow.mainloop()
     
