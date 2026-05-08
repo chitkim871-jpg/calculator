@@ -37,20 +37,20 @@ button.pack()
 result_label=tk.Label(mainWindow,text="Operation Result is : ")
 result_label.pack()
 
-# def Add():
-#     a=int(First_Value.get())
-#     b=int(Second_Value.get())
-#     add=a + b
-#     result_label.config(text = "Operation Result is :  "  +str(add))
+def Add():
+    a=int(First_Value.get())
+    b=int(Second_Value.get())
+    add=a + b
+    result_label.config(text = "Operation Result is :  "  +str(add))
     
     
     
     
-# def Sub():
-#     a=int(First_Value.get())
-#     b=int(Second_Value.get())
-#     Sub=a-b
-#     result_label.config(text = "Operation Result is :  " +str(Sub))
+def Sub():
+    a=int(First_Value.get())
+    b=int(Second_Value.get())
+    Sub=a-b
+    result_label.config(text = "Operation Result is :  " +str(Sub))
     
     
 def Mul():
